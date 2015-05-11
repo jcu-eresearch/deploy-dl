@@ -12,6 +12,18 @@ The deployment requires [Ansible] v1.9 or greater.
 
 [Ansible]: http://www.ansible.com/home
 
+## Usage
+
+    $ make jcu deploy
+    
+Will deploy the host in the inventory/jcu file.
+
+## Troubleshooting
+
+JCU HPC VM's often have firewall related issues that can mainfest in strange ways.  
+In this machine's history, outgoing traffic not belonging to root was dropped.
+IPTABLES was changed to allow user `app` to have similar rights.
+
 ## Testing
 
 If you have Vagrant installed, you can create VMs using it and run ansible with
