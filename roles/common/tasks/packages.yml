@@ -52,10 +52,10 @@
       - mercurial
       - python-httplib2
       - logwatch
+      - sqlite-devel
 
 - name: set logwatch email
   template: >
       src=logwatch.j2
       dest=/etc/logwatch/conf/logwatch.conf
   when: logwatch_email is defined
-
