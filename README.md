@@ -16,7 +16,7 @@ The deployment requires [Ansible] v1.9 or greater.
 
     $ make jcu deploy
     
-Will deploy the host in the inventory/jcu file.
+Will deploy to the host in the inventory/jcu file. Currently that is `rdsi-vecnet.hpc.jcu.edu.au` `137.219.15.116`.
 
 ## Troubleshooting
 
