@@ -2,7 +2,12 @@ VecNet Digital Library Deploy
 =============================
 
 This repository contains the ansible scripts used to deploy the VecNet Digital
-Library system.
+Library system to `rdsi-vecnet.hpc.jcu.edu.au` to make a 'warm' mirror as part of the MODC project.
+
+## Contact
+Steven Vandervalk - steven.vandervalk@jcu.edu.au
+
+## Requirements
 The deployment requires [Ansible] v1.9 or greater.
 
 [Ansible]: http://www.ansible.com/home
